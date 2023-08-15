@@ -1,60 +1,39 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Tasty and Beautiful Recipes",
+    subtitle: "PERN stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "During my participation in the Henry Bootcamp, I designed and developed an application focused on the gastronomy sector. This application has various functionalities, including product or recipe searches, combined filters such as A-Z with vegetarian diet restrictions, and the ability to sort products alphabetically. Additionally, I successfully deployed the project and received praise for the meticulous implementation of the backend.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://pi-foods-nah85k113-demarcosantiago.vercel.app",
   },
   {
     title: "React Tracks",
-    subtitle: "React and Python",
+    subtitle: "React and TypeScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "As part of my academic experience, I participated in the development of a group project focused on designing an application for the sale of computer components. This application includes various functionalities such as a product cart, user control and authentication, a search engine, and combined filters. It also features an admin profile where inventory management tasks can be performed, such as adding or deleting products, payment control, and sending automated emails to verify and confirm purchases. My main contribution to the project was focused on implementing the backend development, particularly in setting up routes for various requests, filters, and pagination of products. Additionally, I provided support in frontend development, defining visual styles, and deploying the project.",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    link: "https://techzone-market-macanita.vercel.app",
   },
 ];
 
 export const skills = [
   "JavaScript",
+  "TypeScript",
+  "Learning Python",
   "React",
+  "Redux",
+  "Scrum",
+  "Agile",
   "Next.js",
   "Node",
-  "GraphQL",
+  "Nest.js",
+  "Express",
+  "Postgres",
+  "mySQL",
+  "TypeORM",
+  "Sequelize",
   "Material UI",
+  "Figma",
+  "Canva"
 ];
