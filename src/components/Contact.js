@@ -46,8 +46,8 @@ return (
                 ADDRESS
               </h2>
               <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
+                Virgen de la Merced 570 St. <br />
+                San Miguel de Tucumán, T4000
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -55,12 +55,12 @@ return (
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+                Corvalansantiago29@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">(+54) 3816357556</p>
             </div>
           </div>
         </div>
