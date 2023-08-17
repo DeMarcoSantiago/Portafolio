@@ -1,17 +1,19 @@
+
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import HomePage from "./components/HomePage"
+import About from "./components/About";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-function App() {
-	return (
-		<div className="App">
-			<Routes>
-				<Route path="" element={<HomePage />} />
-        <Route path="/contact" element= {<Contact/>} />
-			</Routes>
-		</div>
-	);
+export default function App() {
+  return (
+    <main>
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
+  );
 }
-
-export default App;
