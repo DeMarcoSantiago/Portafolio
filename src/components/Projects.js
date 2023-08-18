@@ -13,10 +13,11 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          During my time as a student at Henry Academy, I've had the opportunity to work on projects that I'm truly proud of. These projects not only reflect my dedication but also showcase the skills and knowledge I've gained throughout my academic journey. Allow me to present a glimpse into these noteworthy achievements: 
           </p>
+          <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+            Hover in the proyect to see more info
+          </h2>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
