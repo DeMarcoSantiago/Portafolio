@@ -26,12 +26,17 @@ export default function Contact() {
       .catch((error) => alert(error));
 }
 return (
+            
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">  
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          
+      
+              
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
+          
+              
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 Country
               </h2>
@@ -51,6 +56,13 @@ return (
               </h2>
               <p className="leading-relaxed">(+54) 3816357556</p>
             </div>
+            <a href='https://www.linkedin.com/in/santiago-de-marco-702892220/'>
+              
+            <button class="flex items-center bg-blue-600 border-0 rounded-full box-border text-white cursor-pointer inline-flex font-semibold text-base md:text-lg lg:text-xl xl:text-2xl leading-6 max-w-[480px] min-h-[40px] px-6 md:px-8 py-0 text-center touch-action-manipulation transition duration-150 ease-in-out select-none hover:bg-blue-700 focus:bg-blue-700 active:bg-blue-800 active:text-blue-200 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400">
+  Linkedin
+            </button>
+            </a>
+              
           </div>
         </div>
         <form
