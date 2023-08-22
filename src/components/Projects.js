@@ -16,7 +16,8 @@ export default function Projects() {
           During my time as a student at Henry Academy, I've had the opportunity to work on projects that I'm truly proud of. These projects not only reflect my dedication but also showcase the skills and knowledge I've gained throughout my academic journey. Allow me to present a glimpse into these noteworthy achievements: 
           </p>
           <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Hover in the proyect to see more info
+            Hover in the proyect to see more info <br/>
+            or click to go to the website
           </h2>
         </div>
         <div className="flex flex-wrap -m-4">
