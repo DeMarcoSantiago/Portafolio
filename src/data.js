@@ -8,19 +8,19 @@ export const projects = [
     link: "https://pi-foods-nah85k113-demarcosantiago.vercel.app",
   },
   {
-    title: "React Tracks",
+    title: "Techzone E-comerce",
     subtitle: "React and TypeScript",
     description:
       "As part of my academic experience, I participated in the development of a group project focused on designing an application for the sale of computer components. This application includes various functionalities such as a product cart, user control and authentication, a search engine, and combined filters. It also features an admin profile where inventory management tasks can be performed, such as adding or deleting products, payment control.",
     image: "./project-2.gif",
-    link: "https://techzone-market-macanita.vercel.app",
+    link: "https://tech-zone-santiago.vercel.app",
   },
 ];
 
 export const skills = [
   "JavaScript",
   "TypeScript",
-  "Learning Python",
+  "Python",
   "React",
   "Redux",
   "Scrum",
